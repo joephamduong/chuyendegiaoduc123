@@ -1,0 +1,190 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face{
+    font-family: font-title;
+    src: url('../font/MTD Feliz en Vista.ttf')
+}
+@font-face{
+    font-family: font-1;
+    src: url('../font/MPLUS1p-Regular.ttf')
+}
+@font-face{
+    font-family: font-2;
+    src: url('../font/MPLUS1p-Bold.ttf')
+}
+/*Chung*/
+body{
+    font-family: font2;
+	background-color: rgba(255,255,255,0);
+	overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: font1;
+}
+.navi{
+	font-size:16pt;
+	background: rgba(255,255,255,0);
+	padding-top:0;
+    position: sticky;
+}
+.navi img{
+	height: 100px;
+	padding-top:30px;
+}
+.navi ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+}
+.navi ul li{
+	display:block;
+	float:left;
+}
+.navi ul li a{
+	display:block;
+	color:rgba(24,58,81,1);
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right:15px;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all ease 0.5s;
+}
+.navi ul li a:hover{
+	display:block;
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-right:15px;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFFFFF;
+	background:rgba(2,65,108,1);
+	transition: all ease 0.5s;
+}
+hr{ 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-style:solid;
+    border-width: 2px;
+	background:rgba(2,65,108,1);
+}
+.banner-navi img{
+  border: 0px solid #ddd; /* Gray border */
+  border-radius: 0px;  /* Rounded border */
+  margin-top:40px;
+  margin-bottom:40px;
+  padding: 0px; /* Some padding */
+  width:100%; /* Set a small width */
+}
+/* DUOI BANNER */
+.banner-fluid{
+    background-image: url("../img index/Mask_Group_40.png");
+    background-position: center;
+    background-repeat: no-repeat;       
+    background-size: auto;
+	height: 500px;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.boder-title-1{
+	background:rgba(2,65,108,1);
+	display:block;
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right:0px;
+	transition: all ease 0.5s;
+}
+.boder-title-1:hover{
+	background:rgba(0,60,90,1);
+	display:block;
+	height: 50px;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-right:0px;
+	transition: all ease 0.5s;
+}
+.boder-title-1 a{
+	font-size:14pt;
+	color:#ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.boder-title-1 a:hover{
+	font-size:14pt;
+	color:#ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.img img{
+  	border: 0px solid #ddd; /* Gray border */
+  	border-radius: 0px;  /* Rounded border */
+  	margin-top: 30px;
+  	margin-bottom:10px;
+  	padding: 0px; /* Some padding */
+  	width:100%; /* Set a small width */
+}
+.img a{
+	font-family: font1;
+	color:rgba(2,65,108,1);
+	font-size:14pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+.text-detail-product-index .img img{
+	border: 0px solid #ddd; /* Gray border */
+  	border-radius: 0px;  /* Rounded border */
+  	margin-top: 30px;
+  	margin-bottom:10px;
+  	padding: 0px; /* Some padding */
+  	width:100%; /* Set a small width */
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+.text-detail-product-index a p{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
